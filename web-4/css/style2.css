@@ -115,14 +115,16 @@ body {
 
 .tengah .content {
   padding: 1.4rem 7%;
-  max-width: 60rem;
+  max-width: 60rem; 
 }
 
 .tengah .content h1 {
+  font-family: "Poppins", sans-serif;
   font-size: 5rem;
   color: #fff;
   text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
   line-height: 1.2;
+  text-align: left;
 }
 
 .tengah .content h1 span {
@@ -130,12 +132,15 @@ body {
 }
 
 .tengah .content p {
-  font-size: 1.6rem;
+  color: #ff8331;
+  position: relative;
+  right: 2.7rem;
+  text-align: left;
+  font-size: 1.8rem;
   margin-top: 1rem;
   line-height: 1.4;
-  font-weight: 300;
-  text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
-  mix-blend-mode: difference;
+  font-weight: 400;
+  text-shadow: 1px 1px 3px rgb(0, 0, 0);
 }
 
 .tengah .content .gasken {
@@ -189,10 +194,6 @@ p {
 .kontenbro span {
   padding-right: 1rem;
   padding-top: 5rem;
-}
-
-.about{
-  /* max-width: 800px; */
 }
 
 .about .row img {
@@ -250,13 +251,15 @@ p {
   html {
     font-size: 75%;
   }
+
 }
 
 /* Tablet */
-@media (max-width: 758px) {
+@media (max-width: 768px) {
   html {
     font-size: 62.5%;
   }
+
 }
 
 /* Mobile */
@@ -264,64 +267,59 @@ p {
   html {
     font-size: 55%;
   }
-}
 
-@media(min-width: 600px){
-  about{
-    width:25%;
-  }
 }
 
 /* BAGIAN WAHID */
 
-.kotak{
-  background-color: #ECEBDE;
+.kotak {
+  background-color: #ecebde;
   text-align: center;
   line-height: 2;
   /* height: 1000PX; */
 }
 
-h3{
-  font-family: 'pangolin';
+h3 {
+  font-family: "pangolin";
   color: rgb(21, 31, 40);
 }
 
-.kotak .sesi{
-  display:flex;
+.kotak .sesi {
+  display: flex;
   justify-content: space-around;
   gap: 2rem;
 }
 
-.satu{
+.satu {
   background-color: rgb(234, 245, 247);
   width: 150px;
   /* border: 1px solid black; */
   border-radius: 24px;
 }
 
-.ipul{
+.ipul {
   width: 350px;
   height: 350px;
-  box-shadow: 0 0 10px rgb(53, 12, 12)
+  box-shadow: 0 0 10px rgb(53, 12, 12);
 }
 
 /* KONTEN2-------------------------- */
 
-.ikon{
+.ikon {
   /* background: linear-gradient(to right ,rgb(233, 238, 238), rgb(181, 75, 241)); */
   padding-top: 10px;
   padding-bottom: 70px;
   text-align: center;
   /* background-color: #bbb8b8; */
-  background-color:;
+  /* background-color: ; */
 }
 
-h4{
+h4 {
   color: #2b2a2a;
 }
 
-.partners{
-padding: 20px;
+.partners {
+  padding: 20px;
   display: flex;
   justify-content: space-around;
 }
@@ -330,18 +328,17 @@ padding: 20px;
 
 /* bikin card */
 
-.bikincard{
+.bikincard {
   width: 900px;
   margin: 50px auto;
   margin-top: 0px;
   /* bikin card berjejer kekanan */
 }
 
-.bungkus{
+.bungkus {
   display: flex;
-
 }
-.card{
+.card {
   border: 1px solid #333;
   border-radius: 10px;
   background-color: rgb(251, 251, 251);
@@ -350,51 +347,48 @@ padding: 20px;
   ujungnya jadi lancip*/
   overflow: hidden;
   /* jarak antar card */
-  margin: 10PX;
-  
+  margin: 10px;
 }
 
-.judulcard{
+.judulcard {
   /* tinggi judul card */
   height: 200px;
   background-color: aliceblue;
   /* width: 100%; */
 }
 
-.judulcard img{
+.judulcard img {
   width: 300px;
 }
 
-.isicard{
+.isicard {
   text-align: center;
   /* padding-bottom: 10px; */
 }
 
-.card:hover{
-  transform: 
-  scale(1.2);
+.card:hover {
+  transform: scale(1.2);
   transition: transform 0.7s;
-
 }
 
-h1{
+h1 {
   text-align: center;
-  font-family: 'Faculty Glyphic';
+  font-family: "Faculty Glyphic";
 }
 
-.button{
+.button {
   text-align: center;
   padding: 20px;
   transition: transform 0.4s;
 }
 
-.button:hover{
-  transform:translateX(-15px);
+.button:hover {
+  transform: translateX(-15px);
   /* background:transparent;
   color: aliceblue; */
 }
 
-button{
+button {
   border-radius: 10px;
   border: 1px solid black;
   /* background:linear-gradient(to right, rgb(121, 212, 240),rgb(241, 53, 241)); */
@@ -404,30 +398,28 @@ button{
 
 /* BAGIAN HADI */
 
-.tulisan .tulisan1 h1{
+.tulisan .tulisan1 h1 {
   text-align: center;
   font-family: "Wendy One";
   font-weight: lighter;
   font-size: 40px;
 }
-.tulisan{
+.tulisan {
   margin: 150px;
   position: relative;
 }
-.tulisan .tulisan2{
+.tulisan .tulisan2 {
   width: 200px;
   box-sizing: border-box;
 }
-.text{
+.text {
   display: flex;
   gap: 35px;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-
-  
 }
-.text .tulisan2{
+.text .tulisan2 {
   align-items: center;
   width: 500px;
   padding-left: 0;
@@ -436,20 +428,19 @@ button{
   box-shadow: 0px 5px 10px;
   border-radius: 10px;
   padding: 15px 15px;
-
 }
-.text .tulisan2 img{
+.text .tulisan2 img {
   width: 50px;
   border-radius: 500px;
 }
-.saya{
+.saya {
   display: flex;
   border: none;
   background: rgb(211, 211, 220);
   margin: 50px auto;
 }
 
-.saya2 p{
+.saya2 p {
   padding: 30px 20px;
   margin: 15px 300px;
   border-radius: 10px;
@@ -458,25 +449,24 @@ button{
   font-size: 22px;
   /* font-family: "Averia Libre"; */
 }
-p.uy b:hover{
-
+p.uy b:hover {
   color: brown;
 }
-p.uy b{
-  transition: all .50s ease;
+p.uy b {
+  transition: all 0.5s ease;
 }
-.uy{
+.uy {
   background: white;
   border-radius: 30px;
   padding-bottom: 30px;
 }
-.uy1{
+.uy1 {
   background: white;
 }
-.uy2{
+.uy2 {
   background: white;
 }
-.uy2 i{
+.uy2 i {
   position: relative;
   display: inline;
 }
@@ -484,19 +474,19 @@ p.uy b{
   position: relative;
   right: 70px;
 }
-.saya2 h1{
+.saya2 h1 {
   padding: 20px 0;
   text-transform: capitalize;
- margin-left: 300px;
- font-size: 30px;
- font-family: "Miniver" ;
- transition: all .50s ease-in-out;
+  margin-left: 300px;
+  font-size: 30px;
+  font-family: "Miniver";
+  transition: all 0.5s ease-in-out;
 }
-.saya2 h1:hover{
-  transform:  translateY(-5px);
+.saya2 h1:hover {
+  transform: translateY(-5px);
   color: red;
 }
-.saya .saya1 img{
+.saya .saya1 img {
   width: 500px;
   height: 460px;
   border-radius: 40px;
@@ -509,10 +499,10 @@ p.uy b{
   top: 25px;
   transition: transform 0.7s;
 }
-.saya .saya1 img:hover{
+.saya .saya1 img:hover {
   transform: scale(1.2);
 }
-.plingbawah{
+.plingbawah {
   background: rgb(155, 153, 153);
   width: 1350px;
   margin-left: 400px;
@@ -520,20 +510,20 @@ p.uy b{
   color: rgb(251, 253, 255);
   border-radius: 10px;
 }
-.plingbawah h1{
+.plingbawah h1 {
   font-family: "Wendy One";
   padding-bottom: 70px;
   padding-left: 70px;
   font-size: 50px;
   position: relative;
   top: 20px;
-  transition: all .50s ease;
+  transition: all 0.5s ease;
 }
-.plingbawah h1:hover{
+.plingbawah h1:hover {
   transform: translateY(-7px);
   color: brown;
 }
-.plingbawah p{
+.plingbawah p {
   font-family: "arial";
   padding-bottom: 60px;
   padding-left: 70px;
@@ -545,44 +535,44 @@ p.uy b{
   bottom: 20px;
   top: 10px;
 }
-.plingbawah a{
+.plingbawah a {
   font-size: 40px;
- position: relative;
+  position: relative;
   bottom: 20px;
   right: 60px;
-  
 }
-p a ,btn{
-text-decoration: none;
-background: white;
-position: relative;
-align-items: center;
-display: flex;
-padding: 7px;
-border-radius: 20px;
-transition: all .50s ease;
+p a,
+btn {
+  text-decoration: none;
+  background: white;
+  position: relative;
+  align-items: center;
+  display: flex;
+  padding: 7px;
+  border-radius: 20px;
+  transition: all 0.5s ease;
 }
-p a ,btn:hover{
- 
+p a,
+btn:hover {
   transform: translateY(-2px);
   background-color: aliceblue;
-
-}.bawah{
+}
+.bawah {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(10px, auto));
   gap: 1rem;
   width: 1500px;
   padding-left: 600px;
 }
-.bawah-box a{
+.bawah-box a {
   text-decoration: none;
   font-family: "Lacquer";
 }
-.bawah-box{
+.bawah-box {
   display: flex;
   flex-direction: column;
 }
-.bawah .bawah-box1 img{
+.bawah .bawah-box1 img {
   width: 60px;
   border-radius: 40px;
   display: flex;
@@ -590,7 +580,7 @@ p a ,btn:hover{
   position: relative;
   left: 20px;
 }
-.bawah .bawah-box1 a{
+.bawah .bawah-box1 a {
   position: relative;
   left: 20px;
   display: flex;
@@ -599,8 +589,6 @@ p a ,btn:hover{
   font-family: "Lacquer";
 }
 
-.bawah .bawah-box2 a{
+.bawah .bawah-box2 a {
   text-decoration: none;
-  
-} 
-
+}
