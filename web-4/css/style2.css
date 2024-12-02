@@ -275,7 +275,7 @@ p {
 /* BAGIAN WAHID */
 
 .kotak{
-  background-color: rgba(201, 210, 211, 0.493);
+  background-color: #ECEBDE;
   text-align: center;
   line-height: 2;
   /* height: 1000PX; */
@@ -294,7 +294,7 @@ h3{
 
 .satu{
   background-color: rgb(234, 245, 247);
-  width: 100px;
+  width: 150px;
   /* border: 1px solid black; */
   border-radius: 24px;
 }
@@ -312,7 +312,8 @@ h3{
   padding-top: 10px;
   padding-bottom: 70px;
   text-align: center;
-  background-color: #bbb8b8;
+  /* background-color: #bbb8b8; */
+  background-color:;
 }
 
 h4{
@@ -512,14 +513,16 @@ p.uy b{
   transform: scale(1.2);
 }
 .plingbawah{
-  background: black;
+  background: rgb(155, 153, 153);
   width: 1350px;
-  margin-left: 250px;
-  color: aliceblue;
+  margin-left: 400px;
+  padding-top: 30px;
+  color: rgb(251, 253, 255);
   border-radius: 10px;
 }
 .plingbawah h1{
   font-family: "Wendy One";
+  padding-bottom: 70px;
   padding-left: 70px;
   font-size: 50px;
   position: relative;
@@ -532,6 +535,7 @@ p.uy b{
 }
 .plingbawah p{
   font-family: "arial";
+  padding-bottom: 60px;
   padding-left: 70px;
   font-size: 20px;
   display: flex;
@@ -568,7 +572,7 @@ p a ,btn:hover{
   grid-template-columns: repeat(auto-fit, minmax(10px, auto));
   gap: 1rem;
   width: 1500px;
-  padding-left: 200px;
+  padding-left: 600px;
 }
 .bawah-box a{
   text-decoration: none;
