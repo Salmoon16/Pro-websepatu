@@ -14,8 +14,8 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: rgb(158, 157, 157);
-  color: rgb(192, 185, 185);
+  background-color: rgb(130, 102, 102);
+  color: rgb(19, 18, 18);
   min-height: 2000px;
 }
 
@@ -254,3 +254,125 @@ body {
     font-size: 55%;
   }
 }
+
+.kotak{
+  background-color: rgba(10, 138, 155, 0.493);
+  text-align: center;
+  line-height: 2;
+  /* height: 1000PX; */
+}
+
+h3{
+  font-family: 'pangolin';
+  color: rgb(21, 31, 40);
+}
+
+.kotak .sesi{
+  display:flex;
+  justify-content: space-around;
+  gap: 2rem;
+}
+
+.satu{
+  background-color: rgb(45, 200, 228);
+  width: 100px;
+  /* border: 1px solid black; */
+  border-radius: 24px;
+}
+
+.ipul{
+  width: 350px;
+  height: 350px;
+  box-shadow: 0 0 10px rgb(53, 12, 12)
+}
+
+/* KONTEN2-------------------------- */
+
+.ikon{
+  background: linear-gradient(to right ,rgb(72, 199, 193), rgb(181, 75, 241));
+  padding-top: 10px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.partners{
+  display: flex;
+  justify-content: space-around;
+}
+
+/* KONTEN 3 ------------------------*/
+
+/* bikin card */
+
+.bikincard{
+  width: 800px;
+  margin: 50px auto;
+  margin-top: 0px;
+  /* bikin card berjejer kekanan */
+}
+
+.bungkus{
+  display: flex;
+
+}
+.card{
+  border: 1px solid #333;
+  border-radius: 10px;
+  background-color: rgb(170, 248, 248);
+  /* biar gak melebihi card
+  karna pas judul carnya diikasih background
+  ujungnya jadi lancip*/
+  overflow: hidden;
+  /* jarak antar card */
+  margin: 10PX;
+  
+}
+
+.judulcard{
+  /* tinggi judul card */
+  height: 200px;
+  background-color: aliceblue;
+  /* width: 100%; */
+}
+
+.judulcard img{
+  width: 300px;
+}
+
+.isicard{
+  text-align: center;
+  /* padding-bottom: 10px; */
+}
+
+.card:hover{
+  transform: 
+  scale(1.2);
+  transition: transform 0.7s;
+
+}
+
+h1{
+  text-align: center;
+  font-family: 'Faculty Glyphic';
+}
+
+.button{
+  text-align: center;
+  padding: 20px;
+  transition: transform 0.4s;
+}
+
+.button:hover{
+  transform:translateX(-15px);
+  /* background:transparent;
+  color: aliceblue; */
+}
+
+button{
+  border-radius: 10px;
+  background:linear-gradient(to right, rgb(121, 212, 240),rgb(241, 53, 241));
+  height: 50px;
+  width: 100px;
+}
+
+

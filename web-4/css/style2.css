@@ -15,7 +15,7 @@
 body {
   font-family: "Poppins", sans-serif;
   color: #fff;
-  min-height: 2000px;
+  /* min-height: 2000px; */
 }
 
 /* Navbar */
@@ -191,6 +191,10 @@ p {
   padding-top: 5rem;
 }
 
+.about{
+  /* max-width: 800px; */
+}
+
 .about .row img {
   margin: 0;
   display: flex;
@@ -261,3 +265,338 @@ p {
     font-size: 55%;
   }
 }
+
+@media(min-width: 600px){
+  about{
+    width:25%;
+  }
+}
+
+/* BAGIAN WAHID */
+
+.kotak{
+  background-color: rgba(201, 210, 211, 0.493);
+  text-align: center;
+  line-height: 2;
+  /* height: 1000PX; */
+}
+
+h3{
+  font-family: 'pangolin';
+  color: rgb(21, 31, 40);
+}
+
+.kotak .sesi{
+  display:flex;
+  justify-content: space-around;
+  gap: 2rem;
+}
+
+.satu{
+  background-color: rgb(234, 245, 247);
+  width: 100px;
+  /* border: 1px solid black; */
+  border-radius: 24px;
+}
+
+.ipul{
+  width: 350px;
+  height: 350px;
+  box-shadow: 0 0 10px rgb(53, 12, 12)
+}
+
+/* KONTEN2-------------------------- */
+
+.ikon{
+  /* background: linear-gradient(to right ,rgb(233, 238, 238), rgb(181, 75, 241)); */
+  padding-top: 10px;
+  padding-bottom: 70px;
+  text-align: center;
+  background-color: #bbb8b8;
+}
+
+h4{
+  color: #2b2a2a;
+}
+
+.partners{
+padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* KONTEN 3 ------------------------*/
+
+/* bikin card */
+
+.bikincard{
+  width: 900px;
+  margin: 50px auto;
+  margin-top: 0px;
+  /* bikin card berjejer kekanan */
+}
+
+.bungkus{
+  display: flex;
+
+}
+.card{
+  border: 1px solid #333;
+  border-radius: 10px;
+  background-color: rgb(251, 251, 251);
+  /* biar gak melebihi card
+  karna pas judul carnya diikasih background
+  ujungnya jadi lancip*/
+  overflow: hidden;
+  /* jarak antar card */
+  margin: 10PX;
+  
+}
+
+.judulcard{
+  /* tinggi judul card */
+  height: 200px;
+  background-color: aliceblue;
+  /* width: 100%; */
+}
+
+.judulcard img{
+  width: 300px;
+}
+
+.isicard{
+  text-align: center;
+  /* padding-bottom: 10px; */
+}
+
+.card:hover{
+  transform: 
+  scale(1.2);
+  transition: transform 0.7s;
+
+}
+
+h1{
+  text-align: center;
+  font-family: 'Faculty Glyphic';
+}
+
+.button{
+  text-align: center;
+  padding: 20px;
+  transition: transform 0.4s;
+}
+
+.button:hover{
+  transform:translateX(-15px);
+  /* background:transparent;
+  color: aliceblue; */
+}
+
+button{
+  border-radius: 10px;
+  border: 1px solid black;
+  /* background:linear-gradient(to right, rgb(121, 212, 240),rgb(241, 53, 241)); */
+  height: 50px;
+  width: 100px;
+}
+
+/* BAGIAN HADI */
+
+.tulisan .tulisan1 h1{
+  text-align: center;
+  font-family: "Wendy One";
+  font-weight: lighter;
+  font-size: 40px;
+}
+.tulisan{
+  margin: 150px;
+  position: relative;
+}
+.tulisan .tulisan2{
+  width: 200px;
+  box-sizing: border-box;
+}
+.text{
+  display: flex;
+  gap: 35px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  
+}
+.text .tulisan2{
+  align-items: center;
+  width: 500px;
+  padding-left: 0;
+  padding-right: 0;
+  background: rgba(211, 211, 220, 0.939);
+  box-shadow: 0px 5px 10px;
+  border-radius: 10px;
+  padding: 15px 15px;
+
+}
+.text .tulisan2 img{
+  width: 50px;
+  border-radius: 500px;
+}
+.saya{
+  display: flex;
+  border: none;
+  background: rgb(211, 211, 220);
+  margin: 50px auto;
+}
+
+.saya2 p{
+  padding: 30px 20px;
+  margin: 15px 300px;
+  border-radius: 10px;
+  position: relative;
+  bottom: 30px;
+  font-size: 22px;
+  /* font-family: "Averia Libre"; */
+}
+p.uy b:hover{
+
+  color: brown;
+}
+p.uy b{
+  transition: all .50s ease;
+}
+.uy{
+  background: white;
+  border-radius: 30px;
+  padding-bottom: 30px;
+}
+.uy1{
+  background: white;
+}
+.uy2{
+  background: white;
+}
+.uy2 i{
+  position: relative;
+  display: inline;
+}
+.saya2 {
+  position: relative;
+  right: 70px;
+}
+.saya2 h1{
+  padding: 20px 0;
+  text-transform: capitalize;
+ margin-left: 300px;
+ font-size: 30px;
+ font-family: "Miniver" ;
+ transition: all .50s ease-in-out;
+}
+.saya2 h1:hover{
+  transform:  translateY(-5px);
+  color: red;
+}
+.saya .saya1 img{
+  width: 500px;
+  height: 460px;
+  border-radius: 40px;
+  display: flex;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  margin-left: 250px;
+  position: relative;
+  left: 100px;
+  top: 25px;
+  transition: transform 0.7s;
+}
+.saya .saya1 img:hover{
+  transform: scale(1.2);
+}
+.plingbawah{
+  background: black;
+  width: 1350px;
+  margin-left: 250px;
+  color: aliceblue;
+  border-radius: 10px;
+}
+.plingbawah h1{
+  font-family: "Wendy One";
+  padding-left: 70px;
+  font-size: 50px;
+  position: relative;
+  top: 20px;
+  transition: all .50s ease;
+}
+.plingbawah h1:hover{
+  transform: translateY(-7px);
+  color: brown;
+}
+.plingbawah p{
+  font-family: "arial";
+  padding-left: 70px;
+  font-size: 20px;
+  display: flex;
+  gap: 7rem;
+  margin: 0;
+  position: relative;
+  bottom: 20px;
+  top: 10px;
+}
+.plingbawah a{
+  font-size: 40px;
+ position: relative;
+  bottom: 20px;
+  right: 60px;
+  
+}
+p a ,btn{
+text-decoration: none;
+background: white;
+position: relative;
+align-items: center;
+display: flex;
+padding: 7px;
+border-radius: 20px;
+transition: all .50s ease;
+}
+p a ,btn:hover{
+ 
+  transform: translateY(-2px);
+  background-color: aliceblue;
+
+}.bawah{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10px, auto));
+  gap: 1rem;
+  width: 1500px;
+  padding-left: 200px;
+}
+.bawah-box a{
+  text-decoration: none;
+  font-family: "Lacquer";
+}
+.bawah-box{
+  display: flex;
+  flex-direction: column;
+}
+.bawah .bawah-box1 img{
+  width: 60px;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 20px;
+}
+.bawah .bawah-box1 a{
+  position: relative;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  font-family: "Lacquer";
+}
+
+.bawah .bawah-box2 a{
+  text-decoration: none;
+  
+} 
+
